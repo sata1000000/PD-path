@@ -1,10 +1,10 @@
-#N canvas 1285 35 1265 1285 10;
+#N canvas 80 69 1240 1346 10;
 #X obj 300 200 inlet;
 #X obj 200 200 inlet~;
-#X obj 200 400 outlet~;
-#X obj 200 280 *~ 2;
-#X obj 200 310 -~ 1;
-#X obj 200 250 phasor~;
+#X obj 200 500 outlet~;
+#X obj 200 350 *~ 2;
+#X obj 200 400 -~ 1;
+#X obj 200 300 phasor~;
 #X floatatom 400 260 5 0 0 0 - - -, f 5;
 #X obj 400 230 float \$1;
 #X obj 400 200 loadbang;
