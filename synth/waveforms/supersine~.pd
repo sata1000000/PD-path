@@ -1,0 +1,37 @@
+#N canvas 80 232 1453 607 12;
+#X floatatom 200 300 5 0 0 0 - - -, f 5;
+#X floatatom 400 450 5 0 0 0 - - -, f 5;
+#X obj 200 200 inlet;
+#X obj 200 700 outlet~;
+#X floatatom 600 320 5 0 0 0 - - -, f 5;
+#X obj 400 300 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 400 400 *;
+#X obj 200 600 *~ 0.5;
+#X floatatom 300 260 5 0 0 0 - - -, f 5;
+#X obj 300 230 float \$1;
+#X obj 300 200 loadbang;
+#X obj 200 500 osc~;
+#X obj 600 200 inlet;
+#X obj 600 240 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 600 280 sq/rmp/map 0 127 1 2.5;
+#X obj 400 500 osc~;
+#X text 200 100 I made this one up. It's just FM synthesis;
+#X connect 0 0 6 0;
+#X connect 0 0 11 0;
+#X connect 1 0 15 0;
+#X connect 2 0 0 0;
+#X connect 4 0 5 0;
+#X connect 4 0 6 1;
+#X connect 5 0 0 0;
+#X connect 6 0 1 0;
+#X connect 7 0 3 0;
+#X connect 8 0 0 0;
+#X connect 9 0 8 0;
+#X connect 10 0 9 0;
+#X connect 11 0 7 0;
+#X connect 12 0 13 0;
+#X connect 13 0 14 0;
+#X connect 14 0 4 0;
+#X connect 15 0 7 0;

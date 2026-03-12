@@ -27,11 +27,11 @@ rich sound. Popularized by the Roland JP-8000 synthesizer;
 #X obj 200 500 sq/synth/waveforms/saw~;
 #X obj 400 500 sq/synth/waveforms/saw~;
 #X obj 830 250 pipe 10;
-#X text 970 330 the range -3 to +3 is also pretty great \, but I'll
-use that some other time;
 #X floatatom 300 260 5 0 0 0 - - -, f 5;
 #X obj 300 230 float \$1;
 #X obj 300 200 loadbang;
+#X text 970 330 the range 0 to 3 is also pretty great \, but I'll use
+that some other time;
 #X connect 0 0 13 0;
 #X connect 0 0 19 0;
 #X connect 1 0 20 0;
@@ -53,6 +53,6 @@ use that some other time;
 #X connect 19 0 17 0;
 #X connect 20 0 17 0;
 #X connect 21 0 6 0;
-#X connect 23 0 0 0;
+#X connect 22 0 0 0;
+#X connect 23 0 22 0;
 #X connect 24 0 23 0;
-#X connect 25 0 24 0;

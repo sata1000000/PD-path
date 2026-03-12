@@ -1,6 +1,6 @@
-#N canvas 80 69 1240 1346 12;
+#N canvas 80 69 1240 770 12;
 #X obj 200 1300 outlet~;
-#N canvas 1087 613 466 316 rh_scalelog 0;
+#N canvas 633 193 466 316 rh_scalelog 0;
 #X obj 200 460 exp;
 #X obj 200 400 *;
 #X obj 200 430 +;
@@ -266,7 +266,7 @@ raise line~ output to fourth power;
 #X connect 32 3 30 0;
 #X connect 35 0 21 1;
 #X restore 560 840 pd partial;
-#N canvas 186 306 1196 877 partial 0;
+#N canvas 186 69 1196 770 partial 0;
 #X obj 800 560 sqrt;
 #X text 240 500 relative frequency;
 #X obj 200 800 *~;
@@ -385,22 +385,22 @@ raise line~ output to fourth power;
 #X obj 300 200 inlet;
 #X obj 500 200 inlet;
 #X obj 300 400 hsl 128 15 0 1 0 0 empty empty pitch -2 -8 0 10 #fcfcfc
-#000000 #000000 1400 1;
+#000000 #000000 4810 1;
 #X obj 500 400 hsl 128 15 0 1 0 0 empty empty duration -2 -8 0 10 #fcfcfc
-#000000 #000000 12700 1;
+#000000 #000000 8890 1;
 #X obj 500 340 / 127;
 #X obj 300 340 / 127;
 #X obj 400 200 loadbang;
 #X obj 700 200 inlet;
 #X obj 700 400 hsl 128 15 0 1 0 0 empty empty gain -2 -8 0 10 #fcfcfc
-#000000 #000000 5800 1;
+#000000 #000000 5080 1;
 #X obj 700 340 / 127;
 #X obj 540 490 loadbang;
 #X obj 600 700 loadbang;
 #X obj 950 1040 loadbang;
 #X msg 400 280 0.3;
-#X msg 450 280 0.7;
-#X msg 500 280 0.4;
+#X msg 460 280 0.7;
+#X msg 520 280 0.4;
 #N canvas 186 295 823 445 partial 0;
 #X obj 800 560 sqrt;
 #X text 240 500 relative frequency;
