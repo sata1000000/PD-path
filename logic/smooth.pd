@@ -1,4 +1,4 @@
-#N canvas 10 35 1265 1291 10;
+#N canvas 80 87 1265 1291 10;
 #X floatatom 200 300 0 0 0 0 - - -;
 #X obj 200 360 pack 0 200;
 #X obj 200 330 max 0;
@@ -9,8 +9,11 @@
 shortcut. basically all it does is smooth the transition betweeen input
 numbers. it's nice to have sometimes;
 #X obj 200 200 inlet;
-#X obj 300 230 float \$1;
-#X obj 300 200 loadbang;
+#X obj 400 230 float \$1;
+#X obj 400 200 loadbang;
+#X obj 300 200 inlet;
+#X text 200 160 This abstraction MUST be called with \$1 defined. Otherwise
+\, it does no smoothing, f 81;
 #X connect 0 0 2 0;
 #X connect 1 0 3 0;
 #X connect 2 0 1 0;
@@ -19,3 +22,4 @@ numbers. it's nice to have sometimes;
 #X connect 7 0 0 0;
 #X connect 8 0 1 1;
 #X connect 9 0 8 0;
+#X connect 10 0 1 1;
