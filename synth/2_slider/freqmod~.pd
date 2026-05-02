@@ -24,8 +24,8 @@
 #X text 200 130 this doesn't sound very good \, but it works I guess
 haha;
 #X obj 200 350 * 1;
-#X obj 200 230 sq/rmp/map 0 127 50 2000;
-#X obj 400 225 sq/rmp/map 0 127 0 5000;
+#X obj 200 230 sata/rmp/map 0 127 50 2000;
+#X obj 400 225 sata/rmp/map 0 127 0 5000;
 #X connect 3 0 4 0;
 #X connect 4 0 5 0;
 #X connect 5 0 6 0;

@@ -214,7 +214,7 @@
 #X obj 200 1430 outlet~;
 #X text 200 140 Formants at the end;
 #X obj 700 200 inlet;
-#X obj 700 230 sq/rmp/map 0 127 -1 1;
+#X obj 700 230 sata/rmp/map 0 127 -1 1;
 #X floatatom 700 260 5 0 0 0 - - -, f 5;
 #X text 200 100 White noise through 14 bandpass filters with high q.
 ;

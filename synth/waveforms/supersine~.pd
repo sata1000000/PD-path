@@ -15,7 +15,7 @@
 #X obj 600 200 inlet;
 #X obj 600 240 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 600 280 sq/rmp/map 0 127 1 2.5;
+#X obj 600 280 sata/rmp/map 0 127 1 2.5;
 #X obj 400 500 osc~;
 #X text 200 100 I made this one up. It's just FM synthesis;
 #X connect 0 0 6 0;

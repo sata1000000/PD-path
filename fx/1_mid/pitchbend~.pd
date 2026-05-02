@@ -37,7 +37,7 @@ around on githubhttps://github.com/mgsx-dev/gdx-pd-demo/blob/05862d3b67ebc4c12
 ;
 #X obj 400 570 *~ 20;
 #X obj 200 300 delwrite~ sample 200;
-#X obj 400 300 sq/rmp/map -190.5 317.5 -48 48;
+#X obj 400 300 sata/rmp/map -190.5 317.5 -48 48;
 #X connect 0 0 30 0;
 #X connect 1 0 10 0;
 #X connect 1 0 13 0;

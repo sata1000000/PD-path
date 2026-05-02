@@ -5,7 +5,7 @@
 #X floatatom 200 400 5 0 0 0 - - -, f 5;
 #X obj 200 500 osc~;
 #X obj 200 600 outlet~;
-#X obj 300 400 sq/rmp/map 0 127 0 1;
+#X obj 300 400 sata/rmp/map 0 127 0 1;
 #X obj 200 550 *~;
 #X text 200 100 this is a super simple monophonic synthesizer that
 uses the midi note input to play a sound through osc~;

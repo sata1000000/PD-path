@@ -38,8 +38,8 @@ in one knob \, here's the way to do it;
 #X text 620 850 <- freeze the reverb;
 #X text 620 920 <- run the reverb off and let the dry signal pass through.
 ;
-#X obj 600 410 sq/rmp/map 0 127 0 1;
-#X obj 800 500 sq/rmp/map 0 127 0 0.8;
+#X obj 600 410 sata/rmp/map 0 127 0 1;
+#X obj 800 500 sata/rmp/map 0 127 0 0.8;
 #X connect 2 0 4 0;
 #X connect 4 0 3 0;
 #X connect 5 0 4 0;

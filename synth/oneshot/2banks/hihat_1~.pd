@@ -164,8 +164,8 @@
 #000000 #000000;
 #X obj 100 400 s \$0-hht-trg;
 #X obj 300 400 s \$0-ohh-trg;
-#X obj 100 300 sq/if/equal_to 1;
-#X obj 300 300 sq/if/equal_to 2;
+#X obj 100 300 sata/if/equal_to 1;
+#X obj 300 300 sata/if/equal_to 2;
 #X floatatom 100 250 5 0 0 0 - - -, f 5;
 #X obj 100 200 inlet;
 #X text 100 100 this abstraction sends a closed hi-hat if sent a 1

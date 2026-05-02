@@ -34,7 +34,7 @@
 #X obj 500 200 inlet;
 #X obj 600 200 loadbang;
 #X obj 600 230 pipe 1;
-#X obj 300 660 sq/logic/random_between 10 200;
+#X obj 300 660 sata/logic/random_between 10 200;
 #X obj 700 700 *~ 1;
 #X obj 800 570 line;
 #X obj 300 260 sel 0;

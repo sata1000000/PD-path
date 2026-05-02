@@ -48,11 +48,11 @@
 #X text 900 170 End Pitch;
 #X text 1100 170 Amp Deccay;
 #X text 1300 170 HPF;
-#X obj 500 350 sq/rmp/map 0 127 0 500;
-#X obj 700 350 sq/rmp/map 0 127 150 550;
-#X obj 900 350 sq/rmp/map 0 127 0 140;
-#X obj 1100 350 sq/rmp/map 0 127 5 1400;
-#X obj 1300 350 sq/rmp/map 0 127 0 500;
+#X obj 500 350 sata/rmp/map 0 127 0 500;
+#X obj 700 350 sata/rmp/map 0 127 150 550;
+#X obj 900 350 sata/rmp/map 0 127 0 140;
+#X obj 1100 350 sata/rmp/map 0 127 5 1400;
+#X obj 1300 350 sata/rmp/map 0 127 0 500;
 #X obj 500 400 s \$0-tom_max_pitch;
 #X obj 700 400 s \$0-tom_fall_time;
 #X obj 900 400 s \$0-tom_end_pitch;

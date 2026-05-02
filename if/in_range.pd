@@ -7,7 +7,7 @@
 #X floatatom 400 250 5 0 0 0 - - -, f 5;
 #X floatatom 200 250 5 0 0 0 - - -, f 5;
 #X floatatom 300 450 5 0 0 0 - - -, f 5;
-#X obj 200 500 sq/if/equal_to;
+#X obj 200 500 sata/if/equal_to;
 #X obj 200 760 outlet;
 #X floatatom 200 660 5 0 0 0 - - -, f 5;
 #X obj 300 840 outlet;
@@ -21,7 +21,7 @@
 #000000 0 1;
 #X obj 300 630 float 0;
 #X obj 200 630 float 1;
-#X obj 300 790 sq/rmp/bitflip;
+#X obj 300 790 sata/rmp/bitflip;
 #X text 200 100 sends a toggle if the first inlet is in the range of
 the next two inlets;
 #X connect 0 0 6 0;

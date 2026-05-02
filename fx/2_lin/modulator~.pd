@@ -9,13 +9,13 @@
 I discovered it while playing around with sine waves. It pairs well
 with the tabrite visualization;
 #X obj 500 200 inlet;
-#X obj 500 300 sq/rmp/map 0 127 0 2.15;
+#X obj 500 300 sata/rmp/map 0 127 0 2.15;
 #X obj 500 250 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 700 200 inlet;
 #X obj 700 250 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 3600 1;
-#X obj 700 300 sq/rmp/map 0 127 0 7;
+#X obj 700 300 sata/rmp/map 0 127 0 7;
 #X connect 0 0 1 1;
 #X connect 1 0 4 0;
 #X connect 2 0 5 0;

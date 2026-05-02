@@ -19,7 +19,7 @@ is the only range that matters;
 through some other filter later \, it'll hear it just fine;
 #X text 200 140 try pairing it with the oscilloscope. for some reason
 \, it moves the entire image up or down;
-#X obj 1000 380 sq/rmp/map 0 64 0 1.6;
+#X obj 1000 380 sata/rmp/map 0 64 0 1.6;
 #X connect 0 0 2 0;
 #X connect 0 0 1 0;
 #X connect 1 0 5 0;

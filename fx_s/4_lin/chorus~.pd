@@ -25,9 +25,9 @@
 #X floatatom 900 330 5 0 0 0 - - -, f 5;
 #X text 630 200 depth ->;
 #X obj 730 250 s \$0-depth;
-#X obj 200 1200 sq/logic/bypass~;
+#X obj 200 1200 sata/logic/bypass~;
 #X floatatom 700 1000 5 0 0 0 - - -, f 5;
-#X obj 500 300 sq/rmp/map 0 127 0 0.9;
+#X obj 500 300 sata/rmp/map 0 127 0 0.9;
 #X obj 700 1040 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 127 127;
 #X obj 200 1300 outlet~;
@@ -36,7 +36,7 @@
 #X text 410 200 feedback ->;
 #X obj 520 250 s \$0-feedback;
 #X obj 700 960 r \$0-feedback;
-#X obj 400 1200 sq/logic/bypass~;
+#X obj 400 1200 sata/logic/bypass~;
 #X obj 400 1300 outlet~;
 #X obj 1100 200 inlet;
 #X floatatom 1100 330 5 0 0 0 - - -, f 5;
@@ -44,7 +44,7 @@
 #X obj 470 930 r \$0-OG_signal;
 #X obj 1100 360 s \$0-OG_signal;
 #X text 1000 200 OG signal ->;
-#X obj 1100 300 sq/rmp/map 127 0 0 1;
+#X obj 1100 300 sata/rmp/map 127 0 0 1;
 #X floatatom 470 960 5 0 0 0 - - -, f 5;
 #X text 1000 500 based on https://github.com/michaelpace/pd-core/blob/4bc0ef78fd9656efe12f4cc5f6ce6f17de893e37/phaser~.pd#L21
 ;
@@ -52,13 +52,13 @@
 ;
 #X obj 1200 200 loadbang;
 #X msg 1200 229 0;
-#X obj 900 300 sq/rmp/map 0 127 0 10;
+#X obj 900 300 sata/rmp/map 0 127 0 10;
 #X obj 270 200 inlet~;
 #X obj 840 1000 *~;
 #X obj 870 930 r \$0-OG_signal;
 #X floatatom 870 960 5 0 0 0 - - -, f 5;
 #X text 200 100 an awesome stereo chorus effect;
-#X obj 700 300 sq/rmp/map 0 127 0 35;
+#X obj 700 300 sata/rmp/map 0 127 0 35;
 #X text 500 100 to make things less complicated \, I try not to intersect
 wires \, but that's sort of required here;
 #X connect 0 0 1 0;

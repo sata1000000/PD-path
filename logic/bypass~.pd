@@ -25,8 +25,8 @@
 #X msg 230 300 1;
 #X obj 600 230 float \$1;
 #X obj 600 200 loadbang;
-#X obj 400 400 sq/logic/smooth;
-#X obj 530 400 sq/logic/smooth;
+#X obj 400 400 sata/logic/smooth;
+#X obj 530 400 sata/logic/smooth;
 #X text 670 200 <- smoothing amount in ms;
 #X connect 0 0 5 0;
 #X connect 2 0 9 0;

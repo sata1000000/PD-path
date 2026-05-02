@@ -55,7 +55,7 @@
 #X obj 600 200 inlet;
 #X obj 600 230 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 600 260 sq/rmp/map 0 127 0.15 1;
+#X obj 600 260 sata/rmp/map 0 127 0.15 1;
 #X obj 500 200 loadbang;
 #X msg 500 230 0;
 #X obj 200 550 *~ 3;

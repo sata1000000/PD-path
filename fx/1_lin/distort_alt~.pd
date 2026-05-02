@@ -5,11 +5,11 @@
 #X obj 200 800 outlet~;
 #X obj 300 300 +~ 0.02;
 #X obj 200 200 inlet~;
-#X obj 550 300 sq/rmp/map 0 127 0 0.99;
+#X obj 550 300 sata/rmp/map 0 127 0 0.99;
 #X text 700 340 <- range (0-1);
-#X obj 300 600 sq/volumematch~;
+#X obj 300 600 sata/volumematch~;
 #X msg 430 560 0;
-#X obj 200 740 sq/logic/bypass~;
+#X obj 200 740 sata/logic/bypass~;
 #X obj 500 200 inlet;
 #X text 200 100 there's so many ways to do distortion. this is one
 of them;

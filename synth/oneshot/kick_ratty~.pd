@@ -28,11 +28,11 @@
 #X obj 700 230 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 700 200 inlet;
-#X obj 700 260 sq/rmp/map 0 127 120 1500;
+#X obj 700 260 sata/rmp/map 0 127 120 1500;
 #X floatatom 200 480 10 0 0 0 - - -, f 10;
 #X obj 200 600 *~ 0.1;
 #X obj 200 550 hip~ 0;
-#X obj 300 260 sq/rmp/map 0 127 10 30;
+#X obj 300 260 sata/rmp/map 0 127 10 30;
 #X obj 300 200 inlet;
 #X obj 500 200 inlet;
 #X text 700 170 decay;

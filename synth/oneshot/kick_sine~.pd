@@ -8,7 +8,7 @@
 0 10 #fcfcfc #000000 #000000 4350 1;
 #X obj 200 400 osc~ 60;
 #X floatatom 400 310 5 0 0 0 - - -, f 5;
-#X obj 400 270 sq/rmp/map 0 127 40 80;
+#X obj 400 270 sata/rmp/map 0 127 40 80;
 #X obj 200 550 *~ 0.9;
 #X obj 400 200 inlet;
 #X text 200 130 It doesn't sound great. It's more of a proof of concept

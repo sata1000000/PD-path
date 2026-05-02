@@ -8,14 +8,14 @@
 #X obj 400 260 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 1000 1600 f;
-#X obj 500 400 sq/rmp/map 0 127 -1 0;
-#X obj 700 400 sq/rmp/map 0 127 1 0;
+#X obj 500 400 sata/rmp/map 0 127 -1 0;
+#X obj 700 400 sata/rmp/map 0 127 1 0;
 #X floatatom 400 340 5 0 0 0 - - -, f 5;
-#X obj 200 900 sq/logic/bypass~;
+#X obj 200 900 sata/logic/bypass~;
 #X obj 400 800 expr~ $v1 * pow(1 - ($f2/127) \, -1);
 #X text 630 800 <- volume compensation;
 #X text 320 900 <- bypass because clip~ has no passive mode;
-#X obj 400 300 sq/rmp/map 0 127 0 126;
+#X obj 400 300 sata/rmp/map 0 127 0 126;
 #X text 200 100 this abstraction clips the incoming audio \, then amplifies
 the volume to make up for the lost signal;
 #X text 220 140 can lead to volume spikes. use carefully;

@@ -20,7 +20,7 @@
 #X obj 700 300 float \$1;
 #X obj 700 200 loadbang;
 #X text 770 200 < smoothing;
-#X obj 400 470 sq/logic/smooth;
+#X obj 400 470 sata/logic/smooth;
 #X text 200 100 this abstraction simply mutes the two incoming audio
 streams with a toggle box. Oh \, and it can smoothly lower the volume
 with a \$1 input;

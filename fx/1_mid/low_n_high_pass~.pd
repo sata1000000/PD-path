@@ -64,8 +64,8 @@
 taken roughly from the TX-6 filter. Midi values 60-68 are in the dead
 zone;
 #X msg 600 230 63.5;
-#X obj 400 380 sq/rmp/map 0 60 0 127;
-#X obj 600 380 sq/rmp/map 68 127 0 127;
+#X obj 400 380 sata/rmp/map 0 60 0 127;
+#X obj 600 380 sata/rmp/map 68 127 0 127;
 #X connect 0 0 17 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;

@@ -14,10 +14,10 @@
 #X obj 200 200 inlet;
 #X obj 400 200 inlet;
 #X obj 200 900 outlet;
-#X obj 200 600 sq/if/equal_to;
+#X obj 200 600 sata/if/equal_to;
 #X floatatom 300 440 5 0 0 0 - - -, f 5;
 #X floatatom 200 800 5 0 0 0 - - -, f 5;
-#X obj 400 600 sq/if/equal_to;
+#X obj 400 600 sata/if/equal_to;
 #X floatatom 500 440 5 0 0 0 - - -, f 5;
 #X floatatom 400 700 5 0 0 0 - - -, f 5;
 #X floatatom 200 700 5 0 0 0 - - -, f 5;

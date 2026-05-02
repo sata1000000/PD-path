@@ -26,10 +26,10 @@
 #X obj 400 550 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 600 700 loadbang;
-#X obj 700 730 sq/rmp/map 0 127 0 20;
+#X obj 700 730 sata/rmp/map 0 127 0 20;
 #X floatatom 300 360 5 0 0 0 - - -, f 5;
 #X floatatom 700 427 5 0 0 0 - - -, f 5;
-#X obj 300 260 sq/rmp/map 0 127 0 15;
+#X obj 300 260 sata/rmp/map 0 127 0 15;
 #X text 640 940 <- "Q";
 #X text 840 400 <- Maximum of the freq. range;
 #X text 840 500 <- Minimum of the freq. range;

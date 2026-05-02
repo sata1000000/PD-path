@@ -11,7 +11,7 @@
 #X text 200 100 this was supposed to be a pitch bend abstraction \,
 but I accidently made this weird digital distortion thing. I think
 I'll keep it around;
-#X obj 200 920 sq/logic/bypass~;
+#X obj 200 920 sata/logic/bypass~;
 #X text 560 280 <-- once you push this into the hundreds \, it almost
 becomes its own sort of instrument;
 #X obj 300 460 phasor~;
@@ -32,7 +32,7 @@ becomes its own sort of instrument;
 #X obj 601 656 vd~ \$0-audio;
 #X text 800 100 originally from here:https://github.com/zacharyneveu/Embedded_Audio_Programming/blob/0298030aecfa6d4a3a2fba32e28381558d18baec/PD/project2/pitchshift~.pd#L18
 ;
-#X obj 500 240 sq/rmp/map 0 127 1 5;
+#X obj 500 240 sata/rmp/map 0 127 1 5;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
 #X connect 3 0 12 0;

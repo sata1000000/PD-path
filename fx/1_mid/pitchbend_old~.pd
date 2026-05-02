@@ -70,7 +70,7 @@ goes from one end to the other.;
 #X text 570 270 as a little easter egg \, the conversion block accepts
 more than the 0-127 range \, allowing you to go even lower or higher
 ;
-#X obj 200 1100 sq/logic/bypass~;
+#X obj 200 1100 sata/logic/bypass~;
 #X obj 1630 1690 f;
 #X obj 500 200 s \$0-inlet;
 #X floatatom 500 960 5 0 0 0 - - -, f 5;
@@ -78,14 +78,14 @@ more than the 0-127 range \, allowing you to go even lower or higher
 #X obj 240 250 delwrite~ \$0-del 5000;
 #X obj 360 780 vd~ \$0-del;
 #X obj 530 790 vd~ \$0-del;
-#X obj 500 990 sq/if/equal_to;
+#X obj 500 990 sata/if/equal_to;
 #X obj 600 900 loadbang;
 #X msg 600 929 64;
-#X obj 500 1030 sq/rmp/bangs_to_toggle;
+#X obj 500 1030 sata/rmp/bangs_to_toggle;
 #X obj 500 1070 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 1 1;
 #X obj 500 930 int;
-#X obj 440 230 sq/rmp/map -190.5 317.5 -48 48;
+#X obj 440 230 sata/rmp/map -190.5 317.5 -48 48;
 #X connect 0 0 55 0;
 #X connect 0 0 60 0;
 #X connect 2 0 57 0;

@@ -40,7 +40,7 @@
 #X obj 600 200 r \$0-lengthPhasor;
 #X obj 800 200 inlet;
 #X obj 800 280 s \$0-sawlume;
-#X obj 800 240 sq/rmp/map 127 0 0.8;
+#X obj 800 240 sata/rmp/map 127 0 0.8;
 #X obj 600 450 s \$0-lengthPhasor;
 #X obj 500 900 outlet~;
 #X obj 500 850 *~ 0;
@@ -79,7 +79,7 @@
 #X obj 200 200 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 12700 1;
 #X floatatom 200 300 5 0 0 0 - - -, f 5;
-#X obj 200 230 sq/rmp/map 0 127 0 9;
+#X obj 200 230 sata/rmp/map 0 127 0 9;
 #N canvas 80 69 1240 1346 theremod2 0;
 #X obj 200 300 metro 1000;
 #X obj 200 440 random 10;
@@ -213,7 +213,7 @@
 #X floatatom 260 460 5 0 0 0 - - -, f 5;
 #X obj 260 430 r \$0-thereminVolume;
 #X obj 500 280 s \$0-thereminVolume;
-#X obj 500 240 sq/rmp/map 127 0 0.3;
+#X obj 500 240 sata/rmp/map 127 0 0.3;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

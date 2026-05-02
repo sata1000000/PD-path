@@ -49,10 +49,10 @@
 #X obj 800 400 s \$0-clap_spacing;
 #X obj 500 300 r \$0-clap_spacing;
 #X text 800 170 Spacing;
-#X obj 800 350 sq/rmp/map 0 127 8 60;
+#X obj 800 350 sata/rmp/map 0 127 8 60;
 #X obj 2310 1900 f;
 #X obj 1000 400 s \$0-clap_amp_decay;
-#X obj 1000 350 sq/rmp/map 0 127 5 100;
+#X obj 1000 350 sata/rmp/map 0 127 5 100;
 #X obj 140 640 r \$0-clap_amp_decay;
 #X floatatom 140 670 5 0 0 0 - - -, f 5;
 #X text 140 610 amp decay;
@@ -61,14 +61,14 @@
 #X obj 1200 300 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 6400 1;
 #X text 1200 170 Reverb LPF;
-#X obj 1200 350 sq/rmp/map 0 127 400 4000;
+#X obj 1200 350 sata/rmp/map 0 127 400 4000;
 #X obj 1400 200 inlet;
 #X obj 1400 300 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 6400 1;
 #X text 1400 170 Reverb Decay;
 #X obj 1400 400 s \$0-clap_noise_decay;
 #X obj 1200 400 s \$0-clap_lpf;
-#X obj 1400 350 sq/rmp/map 0 127 50 750;
+#X obj 1400 350 sata/rmp/map 0 127 50 750;
 #X obj 700 830 r \$0-clap_noise_level;
 #X text 700 800 Reverb Level;
 #X floatatom 680 710 5 0 0 0 - - -, f 5;
@@ -81,7 +81,7 @@
 #X obj 1600 200 inlet;
 #X obj 1600 300 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 6400 1;
-#X obj 1600 350 sq/rmp/map 0 127 0 0.6;
+#X obj 1600 350 sata/rmp/map 0 127 0 0.6;
 #X obj 1600 400 s \$0-clap_noise_level;
 #X text 1600 170 Reverb Level;
 #X obj 920 230 pipe 1;

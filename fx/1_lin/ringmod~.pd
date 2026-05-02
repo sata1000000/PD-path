@@ -15,7 +15,7 @@ so maybe fix that later. perhaps by disabling the osc~ while the slider
 is at 0;
 #X text 500 300 tutorial: https://www.youtube.com/watch?v=U2j8eyYRPcQ
 ;
-#X obj 300 250 sq/rmp/map 0 127 0 70;
+#X obj 300 250 sata/rmp/map 0 127 0 70;
 #X connect 2 0 4 0;
 #X connect 4 0 3 0;
 #X connect 5 0 4 1;

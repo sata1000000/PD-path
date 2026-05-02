@@ -15,7 +15,7 @@ roughly from the TX-6 low/high pass filter \, except I only copied
 the high pass half.;
 #X obj 300 430 expr 20000 * (pow(2000 \, $f1 / 127) - 1) / (2000 -
 1);
-#X obj 770 100 sq/fx/1_mid/low_n_high_pass~;
+#X obj 770 100 sata/fx/1_mid/low_n_high_pass~;
 #X msg 400 230 0;
 #X connect 0 0 11 0;
 #X connect 2 0 0 0;

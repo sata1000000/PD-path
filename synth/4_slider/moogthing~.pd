@@ -29,10 +29,10 @@
 #X floatatom 350 360 5 0 0 0 - - -, f 5;
 #X text 200 100 A signal controlled "moog" resonant lowpass \, powered
 by the "moog~" object;
-#X obj 200 330 sq/rmp/map 0 127 0.1 600;
-#X obj 350 300 sq/rmp/map 0 127 0 10;
-#X obj 500 330 sq/rmp/map 0 127 1 10;
-#X obj 650 300 sq/rmp/map 0 127 1 4;
+#X obj 200 330 sata/rmp/map 0 127 0.1 600;
+#X obj 350 300 sata/rmp/map 0 127 0 10;
+#X obj 500 330 sata/rmp/map 0 127 1 10;
+#X obj 650 300 sata/rmp/map 0 127 1 4;
 #X connect 0 0 22 0;
 #X connect 1 0 11 0;
 #X connect 2 0 10 1;

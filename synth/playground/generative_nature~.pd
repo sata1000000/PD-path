@@ -8,7 +8,7 @@
 #X obj 200 400 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1;
 #X obj 200 480 metro;
-#X obj 300 430 sq/rmp/bpm_to_ms;
+#X obj 300 430 sata/rmp/bpm_to_ms;
 #X msg 300 400 120;
 #X msg 200 650 60;
 #X msg 240 650 62;
@@ -28,7 +28,7 @@
 #X obj 600 400 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1;
 #X obj 600 480 metro;
-#X obj 700 430 sq/rmp/bpm_to_ms;
+#X obj 700 430 sata/rmp/bpm_to_ms;
 #X msg 600 650 60;
 #X msg 640 650 62;
 #X msg 680 650 64;
@@ -46,7 +46,7 @@
 #X obj 1000 400 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1;
 #X obj 1000 480 metro;
-#X obj 1100 430 sq/rmp/bpm_to_ms;
+#X obj 1100 430 sata/rmp/bpm_to_ms;
 #X msg 1000 650 60;
 #X msg 1040 650 62;
 #X msg 1080 650 64;
