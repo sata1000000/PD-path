@@ -10,8 +10,8 @@
 #000000 #000000 0 1;
 #X floatatom 600 520 5 0 0 0 - - -, f 5;
 #X obj 600 200 inlet;
-#X obj 600 400 sq/rmp/map 0 127 1 -1;
-#X obj 400 400 sq/rmp/map 0 127 -1 1;
+#X obj 600 400 sata/rmp/map 0 127 1 -1;
+#X obj 400 400 sata/rmp/map 0 127 -1 1;
 #X text 700 100 tutorial (kinda): https://guitarextended.wordpress.com/2011/12/28/simple-fuzz-effect-with-pure-data/
 ;
 #X obj 800 380 loadbang;
@@ -21,7 +21,7 @@
 inlet \, because both sliders sound like they're doing the same thing
 \, but if you look with an oscilloscope \, you'll find that's not exactly
 true!;
-#X obj 200 800 sq/logic/bypass~;
+#X obj 200 800 sata/logic/bypass~;
 #X obj 300 400 +;
 #X floatatom 300 440 5 0 0 0 - - -, f 5;
 #X obj 300 360 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc

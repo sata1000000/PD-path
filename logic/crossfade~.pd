@@ -9,8 +9,8 @@
 #X floatatom 500 330 5 0 0 0 - - -, f 5;
 #X text 100 100 crossfade between two audio streams with a slider object
 with this abstraction;
-#X obj 300 300 sq/rmp/map 0 127 1 0;
-#X obj 500 300 sq/rmp/map 0 127 0 1;
+#X obj 300 300 sata/rmp/map 0 127 1 0;
+#X obj 500 300 sata/rmp/map 0 127 0 1;
 #X connect 0 0 4 0;
 #X connect 1 0 3 0;
 #X connect 2 0 9 0;

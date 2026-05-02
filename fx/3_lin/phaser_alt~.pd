@@ -39,13 +39,13 @@
 #X obj 500 200 inlet;
 #X obj 700 200 inlet;
 #X obj 300 200 inlet;
-#X obj 300 250 sq/rmp/map 0 127 0 1;
+#X obj 300 250 sata/rmp/map 0 127 0 1;
 #X floatatom 300 290 5 0 0 0 - - -, f 5;
 #X floatatom 700 290 5 0 0 0 - - -, f 5;
 #X floatatom 500 290 5 0 0 0 - - -, f 5;
-#X obj 500 250 sq/rmp/map 0 127 0 8;
+#X obj 500 250 sata/rmp/map 0 127 0 8;
 #X obj 200 200 inlet~;
-#X obj 700 250 sq/rmp/map 0 127 0 1;
+#X obj 700 250 sata/rmp/map 0 127 0 1;
 #X text 350 200 <- dry/wet mix;
 #X text 550 200 <- speed;
 #X text 750 200 <- depth;

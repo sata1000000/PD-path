@@ -24,8 +24,8 @@ detune at 1.02;
 #X text 200 100 a supersaw waveform is created by stacking and slightly
 detuning multiple sawtooth waves to produce a thick \, harmonically
 rich sound. Popularized by the Roland JP-8000 synthesizer;
-#X obj 200 500 sq/synth/waveforms/saw~;
-#X obj 400 500 sq/synth/waveforms/saw~;
+#X obj 200 500 sata/synth/waveforms/saw~;
+#X obj 400 500 sata/synth/waveforms/saw~;
 #X obj 830 250 pipe 10;
 #X floatatom 300 260 5 0 0 0 - - -, f 5;
 #X obj 300 230 float \$1;

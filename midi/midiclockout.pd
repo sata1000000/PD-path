@@ -10,7 +10,7 @@
 #X obj 200 200 inlet;
 #X obj 200 370 metro 10;
 #X text 250 200 <-- enter BPM number into the inlet;
-#X obj 200 233 sq/rmp/bpm_to_ms;
+#X obj 200 233 sata/rmp/bpm_to_ms;
 #X connect 0 0 2 0;
 #X connect 0 0 8 0;
 #X connect 2 0 3 0;

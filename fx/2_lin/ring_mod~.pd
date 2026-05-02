@@ -16,7 +16,7 @@
 #X obj 500 310 pack 0 200;
 #X floatatom 300 280 5 0 0 0 - - -, f 5;
 #X obj 300 240 * 50;
-#X obj 500 250 sq/rmp/map 0 127 0 4000;
+#X obj 500 250 sata/rmp/map 0 127 0 4000;
 #X text 340 200 <- ringmod input;
 #X text 550 200 <- makes the ringmod more... harmonic? It definitely
 does something;

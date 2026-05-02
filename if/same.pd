@@ -6,7 +6,7 @@
 #X obj 200 440 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 1 1;
 #X obj 200 360 == 0;
-#X obj 300 500 sq/rmp/bitflip;
+#X obj 300 500 sata/rmp/bitflip;
 #X obj 300 600 outlet;
 #X obj 300 230 *~ -1;
 #X obj 200 300 +~;

@@ -54,7 +54,7 @@
 #X text 700 100 tutorial here: https://www.youtube.com/watch?v=YmSQ-AMS860
 ;
 #X obj 600 200 loadbang;
-#X obj 200 900 sq/logic/bypass~;
+#X obj 200 900 sata/logic/bypass~;
 #X obj 300 800 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 0 127;
 #X text 200 130 I tried to copy the knob progression from the terminal/BITS
@@ -62,7 +62,7 @@ effect on the OP-1 Field \, but it's not algorithmically linear \,
 so I had to make all the boxes you see. Oh \, also \, I made 16 bit
 a passthrough because at that point \, you might as well be using 32
 bit or whatever puredata uses these days, f 78;
-#X obj 400 270 sq/rmp/map 0 127 31 0;
+#X obj 400 270 sata/rmp/map 0 127 31 0;
 #X msg 600 300 31;
 #X connect 0 0 2 0;
 #X connect 0 0 52 0;

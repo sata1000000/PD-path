@@ -13,9 +13,9 @@ Keep in mind that nothing here is final. I often change my mind on what these ab
 Download the repository:
 
 ```
-mkdir -p ~/Documents/Pd/path/sq
-cd ~/Documents/Pd/path/sq
-git clone https://github.com/sq1000000/PD-path.git .
+mkdir -p ~/Documents/Pd/path/sata
+cd ~/Documents/Pd/path/sata
+git clone https://github.com/sata1000000/PD-path.git .
 ```
 Add the path to Purr Data:
 

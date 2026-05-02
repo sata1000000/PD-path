@@ -7,7 +7,7 @@
 #X text 200 100 simple delay abstraction made wih a DSP loop;
 #X obj 300 360 *~ 0;
 #X obj 400 200 inlet;
-#X obj 400 230 sq/rmp/map 0 127 0 0.99;
+#X obj 400 230 sata/rmp/map 0 127 0 0.99;
 #X text 600 100 tutorial here: https://guitarextended.wordpress.com/2011/12/12/creating-a-simple-effect-with-pd/
 ;
 #X text 600 200 the download link isn't working on the tutorial \,

@@ -12,8 +12,8 @@ mslider);
 mslider);
 #X text 650 680 <- both lslider ranges (0 - 127 \, then 0 - 127 again)
 ;
-#X obj 200 400 sq/rmp/map 0 64 127 0;
-#X obj 500 400 sq/rmp/map 64 127 0 127;
+#X obj 200 400 sata/rmp/map 0 64 127 0;
+#X obj 500 400 sata/rmp/map 64 127 0 127;
 #X text 300 140 a 'middle slider' is a slider where the head starts
 in the middle position (64) and can go down to 0 \, or up to 127;
 #X text 200 100 this abstraction uses two map abstractions to convert

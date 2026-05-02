@@ -9,12 +9,12 @@
 #X obj 400 250 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 1000 1600 f;
-#X obj 400 400 sq/rmp/map 0 127 -1 0;
-#X obj 600 400 sq/rmp/map 0 127 1 0;
+#X obj 400 400 sata/rmp/map 0 127 -1 0;
+#X obj 600 400 sata/rmp/map 0 127 1 0;
 #X floatatom 400 350 5 0 0 0 - - -, f 5;
-#X obj 200 700 sq/logic/bypass~;
+#X obj 200 700 sata/logic/bypass~;
 #X text 320 700 <- bypass because clip~ has no passive mode;
-#X obj 400 300 sq/rmp/map 0 127 0 126;
+#X obj 400 300 sata/rmp/map 0 127 0 126;
 #X connect 0 0 3 0;
 #X connect 0 0 12 0;
 #X connect 2 0 7 0;

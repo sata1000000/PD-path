@@ -15,8 +15,8 @@
 it's just two sine waves \, but the second inlet is a modifier to make
 the second one a little different. sort of creates a harmonic effect
 ;
-#X obj 200 250 sq/rmp/map 0 127 75 400;
-#X obj 400 250 sq/rmp/map 0 127 0 500;
+#X obj 200 250 sata/rmp/map 0 127 75 400;
+#X obj 400 250 sata/rmp/map 0 127 0 500;
 #X connect 0 0 12 0;
 #X connect 2 0 13 0;
 #X connect 3 0 5 0;

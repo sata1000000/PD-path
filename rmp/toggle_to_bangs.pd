@@ -13,7 +13,7 @@
 #X text 360 500 <-- bangs when toggle box is inactive;
 #X text 200 100 this abstraction converts a toggle box input to two
 different bangs;
-#X text 400 200 this can be used to undo the sq/rmp/bangs_to_toggle
+#X text 400 200 this can be used to undo the sata/rmp/bangs_to_toggle
 abstraction, f 71;
 #X connect 0 0 6 0;
 #X connect 3 0 4 0;

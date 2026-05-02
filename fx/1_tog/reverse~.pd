@@ -33,7 +33,7 @@
 #000000 0 1;
 #X msg 950 260 200;
 #X obj 200 1180 outlet~;
-#X obj 200 1100 sq/logic/bypass~;
+#X obj 200 1100 sata/logic/bypass~;
 #X obj 850 600 r \$0-length;
 #X obj 770 460 r \$0-t;
 #X text 700 100 based on the "Bungee" abstraction by user nestor https://forum.pdpatchrepo.info/topic/267/reading-a-delwrite-in-reverse/3
@@ -48,7 +48,7 @@ audio \, but only when the inlet box is toggled;
 #X obj 1000 200 loadbang;
 #X obj 1000 290 pipe 5;
 #X obj 1000 350 s \$0-length;
-#X obj 1072 678 sq/if/equal_to;
+#X obj 1072 678 sata/if/equal_to;
 #X connect 0 0 11 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;

@@ -23,7 +23,7 @@
 #X obj 800 330 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X obj 800 400 s \$0-ogVol;
-#X obj 800 360 sq/rmp/map 0 127 1 0;
+#X obj 800 360 sata/rmp/map 0 127 1 0;
 #X text 200 100 stereo delay (with feedback);
 #X text 500 100 originally from here:https://www.youtube.com/watch?v=L_g3_n_QRKY
 ;
@@ -39,13 +39,13 @@
 #X obj 1000 330 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 11750 1;
 #X obj 1000 430 s \$0-fbWinL;
-#X obj 1000 390 sq/rmp/map 0 127 0 741;
+#X obj 1000 390 sata/rmp/map 0 127 0 741;
 #X obj 1170 430 s \$0-fbWinR;
-#X obj 1170 390 sq/rmp/map 0 127 0 358;
+#X obj 1170 390 sata/rmp/map 0 127 0 358;
 #X obj 900 700 r \$0-fbWinL;
 #X obj 600 700 r \$0-fbWinR;
-#X obj 1000 360 sq/logic/smooth 300;
-#X obj 600 360 sq/rmp/map 0 127 0 0.9;
+#X obj 1000 360 sata/logic/smooth 300;
+#X obj 600 360 sata/rmp/map 0 127 0 0.9;
 #X text 1020 550 <- some soft clipping;
 #X obj 800 200 loadbang;
 #X msg 800 230 0;

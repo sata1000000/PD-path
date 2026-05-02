@@ -109,7 +109,7 @@ is that it does;
 I actually understood what was going on;
 #X text 200 100 this abstraction applies a wavefolding effect;
 #X obj 400 200 loadbang;
-#X obj 300 270 sq/rmp/map 0 127 1 7;
+#X obj 300 270 sata/rmp/map 0 127 1 7;
 #X obj 400 570 metro 10;
 #X msg 400 230 0;
 #X connect 0 0 3 0;

@@ -3,9 +3,9 @@
 #X obj 260 300 bp~ 1250 0.83;
 #X obj 200 200 inlet~;
 #X text 200 100 this simple filter thing applies the same "green" bandpass
-filter found in the sq/synth/noise/green~ noise generator. maybe it'll
+filter found in the sata/synth/noise/green~ noise generator. maybe it'll
 help incoming sounds sound more natural.;
-#X obj 200 400 sq/logic/crossfade~;
+#X obj 200 400 sata/logic/crossfade~;
 #X obj 400 200 inlet;
 #X obj 400 230 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;

@@ -38,9 +38,9 @@
 #X text 900 700 the download link isn't working on the tutorial \,
 so I ended up having to download from here: https://github.com/EMC23/TrumBela/blob/ab022cbeeb2213b843df01fefde832b47f622c42/GuitarExtended-Phaser.pd
 ;
-#X obj 900 240 sq/rmp/map 0 127 0 3;
-#X obj 700 240 sq/rmp/map 0 127 0 10;
-#X obj 500 240 sq/rmp/map 0 127 0 0.9;
+#X obj 900 240 sata/rmp/map 0 127 0 3;
+#X obj 700 240 sata/rmp/map 0 127 0 10;
+#X obj 500 240 sata/rmp/map 0 127 0 0.9;
 #X text 200 100 this is a phaser/chorus abstraction;
 #X connect 0 0 20 0;
 #X connect 1 0 2 0;

@@ -11,6 +11,6 @@ are usualy 0 - 16 \, 383) to middle slider values \, (which are usually
 0 - 127);
 #X text 200 300 TLDR: this converts the input range 0 - 16 \, 383 to
 0 - 127;
-#X obj 200 500 sq/rmp/map 0 16383 0 127;
+#X obj 200 500 sata/rmp/map 0 16383 0 127;
 #X connect 0 0 6 0;
 #X connect 6 0 1 0;

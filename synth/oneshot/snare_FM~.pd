@@ -21,7 +21,7 @@
 #X obj 400 200 inlet;
 #X obj 600 230 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 6350 1;
-#X obj 600 260 sq/rmp/map 0 127 0 84;
+#X obj 600 260 sata/rmp/map 0 127 0 84;
 #X obj 600 200 inlet;
 #X floatatom 300 630 5 0 0 0 - - -, f 5;
 #X obj 300 600 r snare_hpf;
@@ -51,9 +51,9 @@
 #000000 #000000 6350 1;
 #X obj 1600 200 inlet;
 #X obj 1800 400 s snare_lpf;
-#X obj 1000 260 sq/rmp/map 0 127 2 178;
-#X obj 2200 260 sq/rmp/map 0 127 0 0.6;
-#X obj 2000 260 sq/rmp/map 0 127 5 261;
+#X obj 1000 260 sata/rmp/map 0 127 2 178;
+#X obj 2200 260 sata/rmp/map 0 127 0 0.6;
+#X obj 2000 260 sata/rmp/map 0 127 5 261;
 #X obj 200 200 inlet;
 #N canvas 607 169 1240 1346 fm 0;
 #X obj 300 900 osc~;
@@ -196,12 +196,12 @@
 #X floatatom 2000 300 5 0 0 0 - - -, f 5;
 #X floatatom 2200 300 5 0 0 0 - - -, f 5;
 #X floatatom 1800 300 5 0 0 0 - - -, f 5;
-#X obj 400 260 sq/rmp/map 0 127 0 580;
-#X obj 800 260 sq/rmp/map 0 127 0 580;
-#X obj 1200 260 sq/rmp/map 0 127 0 124;
-#X obj 1400 260 sq/rmp/map 0 127 1 126;
-#X obj 1600 260 sq/rmp/map 0 127 0 488;
-#X obj 1800 260 sq/rmp/map 0 127 0 9510;
+#X obj 400 260 sata/rmp/map 0 127 0 580;
+#X obj 800 260 sata/rmp/map 0 127 0 580;
+#X obj 1200 260 sata/rmp/map 0 127 0 124;
+#X obj 1400 260 sata/rmp/map 0 127 1 126;
+#X obj 1600 260 sata/rmp/map 0 127 0 488;
+#X obj 1800 260 sata/rmp/map 0 127 0 9510;
 #X text 700 100 the snare doesn't make the same sound as the original
 and I have no idea why. All the parameters are the same. Maybe it's
 because I put eveything inside subpatches?;

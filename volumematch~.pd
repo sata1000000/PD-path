@@ -19,7 +19,7 @@
 #X floatatom 1000 330 5 0 0 0 - - -, f 5;
 #X obj 1000 200 inlet;
 #X text 1170 300 <- amount of delay;
-#X obj 1000 300 sq/rmp/map 0 127 0 5000;
+#X obj 1000 300 sata/rmp/map 0 127 0 5000;
 #X text 200 100 this abstraction makes the audio from the first inlet
 as loud as the audio from the second inlet;
 #X text 300 150 this abstraction is very unstable and frequently causes

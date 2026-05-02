@@ -81,8 +81,8 @@
 #X msg 900 600 1 2 \, 0.7 540 2 \, 0 90 542;
 #X obj 200 800 *~;
 #X obj 200 500 bp~ 10000 20;
-#X obj 800 300 sq/if/equal_to 1;
-#X obj 930 300 sq/if/equal_to 2;
+#X obj 800 300 sata/if/equal_to 1;
+#X obj 930 300 sata/if/equal_to 2;
 #X floatatom 798 250 5 0 0 0 - - -, f 5;
 #X obj 798 201 inlet;
 #X text 200 100 this abstraction sends a closed hi-hat if sent a 1

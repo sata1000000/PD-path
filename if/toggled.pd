@@ -6,7 +6,7 @@
 #X floatatom 300 340 5 0 0 0 - - -, f 5;
 #X obj 300 300 clip 0 1;
 #X obj 200 600 outlet;
-#X obj 330 400 sq/rmp/bitflip;
+#X obj 330 400 sata/rmp/bitflip;
 #X obj 300 500 *;
 #X obj 300 600 outlet;
 #X obj 400 300 float 0;

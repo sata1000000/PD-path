@@ -61,9 +61,9 @@ in one knob \, here's an alright way to to it;
 #X text 1040 800 <- freeverb sucks and even at 100% dry \, it still
 modifies the signal. So I made this extra thing to bypass the audio
 when the signal should be 100% dry;
-#X obj 400 400 sq/rmp/map 0 127 0 0.7;
-#X obj 600 400 sq/rmp/map 0 127 0 1;
-#X obj 800 400 sq/rmp/map 0 127 0 1;
+#X obj 400 400 sata/rmp/map 0 127 0 0.7;
+#X obj 600 400 sata/rmp/map 0 127 0 1;
+#X obj 800 400 sata/rmp/map 0 127 0 1;
 #X connect 2 0 4 0;
 #X connect 4 0 3 0;
 #X connect 5 0 4 0;

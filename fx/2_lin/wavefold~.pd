@@ -89,7 +89,7 @@
 #X floatatom 300 300 5 0 0 0 - - -, f 5;
 #X obj 300 200 inlet;
 #X obj 320 470 *~ 1;
-#X obj 300 260 sq/rmp/map 0 127 1 0.1;
+#X obj 300 260 sata/rmp/map 0 127 1 0.1;
 #X connect 1 0 9 1;
 #X connect 2 0 8 0;
 #X connect 5 0 9 0;

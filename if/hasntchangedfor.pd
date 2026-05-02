@@ -1,6 +1,6 @@
 #N canvas 43 96 955 770 12;
 #X obj 200 200 inlet;
-#X obj 200 500 sq/if/equal_to;
+#X obj 200 500 sata/if/equal_to;
 #X obj 300 200 inlet;
 #X floatatom 200 400 5 0 0 0 - - -, f 5;
 #X floatatom 300 400 5 0 0 0 - - -, f 5;
@@ -28,7 +28,7 @@ in the future \, I'll add those as aliases, f 60;
 #000000 0 1;
 #X obj 300 570 float 0;
 #X obj 200 570 float 1;
-#X obj 300 730 sq/rmp/bitflip;
+#X obj 300 730 sata/rmp/bitflip;
 #X text 500 400 there's a flaw here. ideally \, it would compare the
 current number to all delayed states \, but in this case \, it sends
 the toggle when the delayed number matches the input \, which doesn't
