@@ -1,10 +1,10 @@
 #N canvas 1568 659 765 560 12;
 #X obj 200 200 inlet~;
-#X obj 200 400 tabwrite~ example;
+#X obj 200 400 tabwrite~ \$0-example;
 #X obj 300 300 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000 1 1;
 #N canvas 0 25 450 303 (subpatch) 0;
-#X array example 500 float 1 black black;
+#X array \$0-example 500 float 1 black black;
 #A 0 0.000454403 0.000267844 -0.0004425 0.000431077 0.00143452 0.00101298
 2.66026e-05 0.000670206 0.00138435 0.0005812 -0.000124579 3.19789e-05
 -0.000647979 -0.001046 -0.00151896 -0.000909649 0.000151331 -0.00062034

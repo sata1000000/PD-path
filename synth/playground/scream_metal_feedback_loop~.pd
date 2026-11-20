@@ -18,11 +18,11 @@
 #X obj 240 830 hsl 162 19 0 2 0 0 empty empty empty -2 -10 0 12 #fffb8f
 #000000 #000000 0 1;
 #X floatatom 240 860 5 0 0 0 - - -, f 5;
-#X obj 200 940 delwrite~ feedback 1000;
+#X obj 200 940 delwrite~ \$0-feedback 1000;
 #X obj 600 300 hsl 350 19 0 1000 0 0 empty empty empty -2 -10 0 12
 #70c1ff #000000 #000000 0 1;
 #X floatatom 600 330 5 0 0 0 - - -, f 5;
-#X obj 600 360 delread~ feedback 300;
+#X obj 600 360 delread~ \$0-feedback 300;
 #X obj 600 380 hip~ 40;
 #X obj 600 420 *~ 0.1;
 #X obj 200 790 expr~ $v1 - 1.0/3 * pow($v1 \, 3);

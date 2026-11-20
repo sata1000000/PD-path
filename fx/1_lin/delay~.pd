@@ -13,8 +13,8 @@
 #X text 600 200 the download link isn't working on the tutorial \,
 so I ended up having to download from here: https://github.com/EMC23/TrumBela/blob/ab022cbeeb2213b843df01fefde832b47f622c42/GuitarExtended-SimpleDelay.pd
 ;
-#X obj 200 400 delread~ delayname 500;
-#X obj 200 300 delwrite~ delayname 500;
+#X obj 200 400 delread~ \$0-delayname 500;
+#X obj 200 300 delwrite~ \$0-delayname 500;
 #X connect 0 0 11 0;
 #X connect 2 0 3 0;
 #X connect 3 0 5 1;
