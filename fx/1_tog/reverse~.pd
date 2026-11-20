@@ -48,7 +48,6 @@ audio \, but only when the inlet box is toggled;
 #X obj 1000 200 loadbang;
 #X obj 1000 290 pipe 5;
 #X obj 1000 350 s \$0-length;
-#X obj 1072 678 sata/if/equal_to;
 #X connect 0 0 11 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
