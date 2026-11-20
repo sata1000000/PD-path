@@ -43,7 +43,7 @@ above the trigger value \, the input is sampled and its current value
 is output until another control transition occurs and the input is
 sampled again. The default threshold value is 0 \, but can be specified
 via a float in the left inlet or as an argument to sah~.;
-#X obj 350 880 cycle~;
+#X obj 350 880 osc~;
 #X obj 350 820 *~ 1000;
 #X obj 200 580 phasor~ 20;
 #X obj 350 580 phasor~ 11.33;
@@ -53,7 +53,7 @@ via a float in the left inlet or as an argument to sah~.;
 made with two phasor~ objects;
 #X text 420 820 sah~ output used as the frequency of an oscillator
 ;
-#X obj 350 760 sah~ 0.01;
+#X obj 350 760 samphold~;
 #X text 1512 423 float;
 #X text 1583 424 - set trigger;
 #X floatatom 650 580 0 0 0 0 - - -;
@@ -68,6 +68,7 @@ made with two phasor~ objects;
 #X obj 350 330 sata/rmp/map 0 127 1 150;
 #X obj 500 300 sata/rmp/map 0 127 150 2000;
 #X obj 650 330 sata/rmp/map 0 127 0 1;
+#X obj 400 660 expr~ \$v1 < max(\$f2 \, 0.01);
 #X connect 0 0 39 0;
 #X connect 1 0 31 0;
 #X connect 1 0 42 0;
@@ -86,9 +87,7 @@ made with two phasor~ objects;
 #X connect 29 0 10 0;
 #X connect 30 0 29 0;
 #X connect 31 0 36 0;
-#X connect 32 0 36 1;
 #X connect 36 0 30 0;
-#X connect 39 0 36 0;
 #X connect 41 0 30 1;
 #X connect 42 0 12 0;
 #X connect 43 0 45 0;
@@ -97,3 +96,6 @@ made with two phasor~ objects;
 #X connect 46 0 12 0;
 #X connect 47 0 11 0;
 #X connect 48 0 0 0;
+#X connect 32 0 49 0;
+#X connect 39 0 49 1;
+#X connect 49 0 36 1;

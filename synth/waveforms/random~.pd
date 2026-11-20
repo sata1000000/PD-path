@@ -6,7 +6,7 @@
 #X floatatom 400 260 5 0 0 0 - - -, f 5;
 #X obj 400 230 float \$1;
 #X obj 400 200 loadbang;
-#X obj 240 350 z~ 1;
+#X obj 240 350 fexpr~ \$x1[-1];
 #X obj 200 400 expr~ ($v1) < ($v2);
 #X obj 200 500 samphold~;
 #X obj 200 460 noise~;

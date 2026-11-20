@@ -151,7 +151,7 @@
 #X msg 1020 540 10000;
 #X msg 970 540 100;
 #X obj 200 200 inlet;
-#X obj 200 860 tanh~;
+#X obj 200 860 expr~ tanh(\$v1);
 #X obj 360 700 * 2;
 #X obj 360 630 * 10;
 #X obj 360 660 + 1;

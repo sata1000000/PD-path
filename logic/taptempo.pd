@@ -11,7 +11,7 @@
 #X obj 460 540 > 4;
 #X obj 400 580 spigot;
 #X obj 400 640 list prepend set;
-#X obj 400 610 list-delete 0 1;
+#X obj 400 610 list split 1;
 #X obj 200 370 t b f;
 #X obj 400 670 list trim;
 #X msg 200 450 228.454 232.498 461.259 231.907;
@@ -39,7 +39,7 @@
 #X connect 8 0 9 1;
 #X connect 9 0 11 0;
 #X connect 10 0 13 0;
-#X connect 11 0 10 0;
+#X connect 11 1 10 0;
 #X connect 12 0 14 0;
 #X connect 12 1 4 0;
 #X connect 13 0 14 0;
