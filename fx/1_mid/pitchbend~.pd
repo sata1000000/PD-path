@@ -7,10 +7,10 @@
 #X obj 600 810 cos~;
 #X obj 600 880 *~;
 #X obj 650 760 *~ 50;
-#X obj 650 790 vd~ sample;
+#X obj 650 790 vd~ \$0-sample;
 #X obj 400 940 +~;
 #X obj 450 700 *~ 50;
-#X obj 450 790 vd~ sample;
+#X obj 450 790 vd~ \$0-sample;
 #X obj 400 880 *~;
 #X obj 400 700 -~ 0.5;
 #X obj 400 790 *~ 0.5;
@@ -36,7 +36,7 @@ to find a pitch shifter elsewhere. luckily this guy had one sitting
 around on githubhttps://github.com/mgsx-dev/gdx-pd-demo/blob/05862d3b67ebc4c12e0efb3fa3b65afe33373848/android/assets/pd/pitchshift.pd
 ;
 #X obj 400 570 *~ 20;
-#X obj 200 300 delwrite~ sample 200;
+#X obj 200 300 delwrite~ \$0-sample 200;
 #X obj 400 300 sata/rmp/map -190.5 317.5 -48 48;
 #X connect 0 0 30 0;
 #X connect 1 0 10 0;

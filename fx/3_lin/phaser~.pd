@@ -5,8 +5,8 @@
 #X obj 500 610 +~ 2;
 #X obj 600 640 *~ 2;
 #X obj 600 670 +~ 2;
-#X obj 240 840 delwrite~ phase2 100;
-#X obj 600 700 vd~ phase2;
+#X obj 240 840 delwrite~ \$0-phase2 100;
+#X obj 600 700 vd~ \$0-phase2;
 #X obj 600 583 wrap~;
 #X obj 500 500 phasor~;
 #X obj 600 550 +~ 0.5;
@@ -16,12 +16,12 @@
 #000000 #000000 0 1;
 #X obj 600 730 *~ 0.8;
 #X obj 500 900 *~ 0.8;
-#X obj 700 900 s~ output;
-#X obj 200 1100 r~ output;
+#X obj 700 900 s~ \$0-output;
+#X obj 200 1100 r~ \$0-output;
 #X obj 940 400 hsl 128 15 0 0.9 0 0 empty empty empty -2 -8 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 500 800 vd~ phase1;
-#X obj 200 940 delwrite~ phase1 100;
+#X obj 500 800 vd~ \$0-phase1;
+#X obj 200 940 delwrite~ \$0-phase1 100;
 #X floatatom 500 424 5 0 0 0 - - -, f 5;
 #X floatatom 800 430 5 0 0 0 - - -, f 5;
 #X floatatom 940 420 5 0 0 0 - - -, f 5;

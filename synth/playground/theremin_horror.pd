@@ -167,7 +167,7 @@
 #X obj 200 224 expr~ tanh($v1);
 #X obj 200 248 hip~ 600;
 #X obj 200 272 lop~ 6000;
-#X obj 200 296 delwrite~ buffL 666;
+#X obj 200 296 delwrite~ \$0-buffL 666;
 #X obj 200 344 *~ 0.85;
 #X obj 200 399 throw~ \$0-R;
 #X obj 290 399 throw~ \$0-delayR;
@@ -176,11 +176,11 @@
 #X obj 500 272 lop~ 6000;
 #X obj 500 345 *~ 0.85;
 #X obj 500 199 catch~ \$0-delayR;
-#X obj 500 296 delwrite~ buffR 666;
+#X obj 500 296 delwrite~ \$0-buffR 666;
 #X obj 500 399 throw~ \$0-L;
 #X obj 590 399 throw~ \$0-delayL;
-#X obj 200 320 delread~ buffL 547;
-#X obj 500 321 delread~ buffR 293;
+#X obj 200 320 delread~ \$0-buffL 547;
+#X obj 500 321 delread~ \$0-buffR 293;
 #X text 200 100 stereo delay (with feedback);
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
