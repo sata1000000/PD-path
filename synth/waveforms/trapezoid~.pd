@@ -6,7 +6,7 @@
 #X floatatom 400 260 5 0 0 0 - - -, f 5;
 #X obj 400 230 float \$1;
 #X obj 400 200 loadbang;
-#X obj 200 350 sin~;
+#X obj 200 350 expr~ sin(\$v1);
 #X obj 200 400 *~ 2;
 #X obj 200 450 clip~ -1 1;
 #X text 200 100 this makes a trapezoid waveform;

@@ -1340,7 +1340,7 @@ to its right inlet.;
 #X connect 9 0 3 0;
 #X connect 10 0 4 0;
 #X restore 400 1000 pd rh_scalelog;
-#X obj 200 1090 tanh~;
+#X obj 200 1090 expr~ tanh(\$v1);
 #X msg 500 970 10;
 #X msg 460 970 0.1;
 #X obj 200 1030 *~ 1.3;

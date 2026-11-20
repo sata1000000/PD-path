@@ -3,7 +3,7 @@
 #X obj 500 126 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 500 200 cos~;
-#X obj 600 200 sin~;
+#X obj 600 200 expr~ sin(\$v1);
 #X obj 300 300 *~;
 #X obj 400 300 *~;
 #X obj 300 400 -~;
