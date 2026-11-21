@@ -24,7 +24,7 @@
 #X obj 200 202 inlet;
 #X obj 200 300 b;
 #X text 600 200 vanilla pd;
-#X text 600 230 [bp~] replaces [bpq2~], [f \$1]+[sel 0] replaces [tof/argument];
+#X text 600 230 [bp~] replaces [bpq2~]\, [f \$1]+[sel 0] replaces [tof/argument];
 #X text 600 330 Version: 2007-09-13;
 #X obj 200 260 route bang trigger gain;
 #X obj 400 320 / 127;
